@@ -30,6 +30,7 @@ class _HomePageState extends State<HomePage> {
             ),
             title: Text("Elément"),
             subtitle: Text("Sous-élement"),
+            trailing: IconButton(onPressed:() { }, icon:Icon( Icons.call)),
           ),
         );
       },
